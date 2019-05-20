@@ -36,7 +36,7 @@ const port = process.env.PORT || 3001;
 
 // connect to database
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://root:abc123@ds023490.mlab.com:23490/webappstory', {
+mongoose.connect('mongodb://username:password@ds023490.mlab.com:23490/webappstory', {
   useMongoClient: true,
   keepAlive: true,
     keepAliveInitialDelay: 300000,
